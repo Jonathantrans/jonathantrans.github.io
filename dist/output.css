@@ -1359,3 +1359,34 @@ video {
     transition-property: none;
   }
 }
+
+/* Image Zoom Animation*/
+
+.zoom img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+    }
+
+.zoom img:hover {
+	-webkit-transform: scale(1.3);
+  transform: scale(1.3);
+   }
+
+/* Big Image Zoom Animation*/
+.click-zoom input[type=checkbox] {
+  display: none
+}
+
+.click-zoom img {
+  margin: auto;
+	display: block;
+  transition: transform 0.25s ease;
+  cursor: zoom-in
+}
+
+.click-zoom input[type=checkbox]:checked~img {
+  transform: scale(1.5);
+  cursor: zoom-out
+}
