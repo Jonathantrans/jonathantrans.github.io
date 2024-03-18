@@ -1375,6 +1375,15 @@ video {
    }
 
 /* Big Image Zoom Animation*/
+.img-round {
+  border-radius: 50%;
+  width: 100%
+}
+
+.img-responsive {
+  width: 100% !important;
+}
+
 .click-zoom input[type=checkbox] {
   display: none
 }
