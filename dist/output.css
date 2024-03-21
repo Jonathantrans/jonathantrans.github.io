@@ -513,7 +513,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-/* .container {
+.container {
   width: 100%;
 }
 
@@ -545,11 +545,11 @@ video {
   .container {
     max-width: 1536px;
   }
-} */
+}
 
 
 /* container & columns */
-.container {
+/* .container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -1885,7 +1885,7 @@ video {
     margin-left: 91.666667%
   }
 }
-
+ */
 
 
 
