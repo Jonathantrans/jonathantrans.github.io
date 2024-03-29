@@ -13,7 +13,7 @@ window.addEventListener("resize", menuResize);
 function menuResize() {
   // First get the size from the window
   const window_size = window.innerWidth || document.body.clientWidth;
-  if (window_size > 640) {
+  if (window_size > 700) {
     menu.classList.remove("h-32");
   }
 }
