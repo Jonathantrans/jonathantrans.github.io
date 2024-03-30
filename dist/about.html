@@ -28,7 +28,7 @@
     <nav id="nav" x-data="{ open: false }" role="navigation" class="w-full">
       <div class="container mx-auto flex flex-wrap items-center md:flex-no-wrap">
         <div class="mr-4 md:mr-8">
-          <a class="zoom" href="index.html"><img src="dist/assets/logo.png" width="50" alt="" loading="lazy"></a>
+          <a class="zoom" href="../index.html"><img src="dist/assets/logo.png" width="50" alt="" loading="lazy"></a>
         </div>
         <div class="ml-auto md:hidden flex items-center justify-start">
           <button onclick="menuToggle()" @click="open = !open"
@@ -53,22 +53,26 @@
           <ul id="ulMenu"
             class="flex flex-col duration-300 ease-out md:space-x-5 sm:transition-none mt-5 md:flex-row md:items-center md:ml-auto md:mt-0 md:pt-0 md:border-0">
             <li class="group transition duration-300">
-              <a href="../index.html" class="font-signika text-2xl">PORTFOLIO
+              <a href="../index.html" class="font-signika text-2xl tap-highlight-transparent transition duration-300 hover:opacity-65">HOME
                 <span
-                  class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white">
-                </span>
+                  class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
               </a>
             </li>
             <li class="group transition duration-300">
-              <a href="about.html" class="font-signika text-2xl">ABOUT ME
-                <span class="hidden md:block h-0.5 bg-black dark:bg-white"></span>
+              <a href="photography.html" class="font-signika text-2xl tap-highlight-transparent transition duration-300 hover:opacity-65">PHOTOGRAPHY
+                <span class="hidden md:block h-0.5 bg-black"></span>
               </a>
             </li>
             <li class="group transition duration-300">
-              <a href="contact.html" class="font-signika text-2xl">CONTACT
+              <a href="about.html" class="font-signika text-2xl tap-highlight-transparent transition duration-300 hover:opacity-65">ABOUT
                 <span
-                  class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white">
-                </span>
+                  class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
+              </a>
+            </li>
+            <li class="group transition duration-300">
+              <a href="contact.html" class="font-signika text-2xl tap-highlight-transparent transition duration-300 hover:opacity-65">CONTACT
+                <span
+                  class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
               </a>
             </li>
           </ul>
@@ -160,13 +164,14 @@
       </div>
       <p class="mt-8 text-xs text-gray-600 dark:text-gray-300 text-center">
         © 2024 Developed and Designed by
-        <a href="https://www.linkedin.com/in/jonathantrans/" class="underline">Jonathan Trans</a>
+        <a class="underline">Jonathan Trans</a>
       </p>
     </div>
   </footer>
   <script src="fade_in.js"></script>
   <script src="menu.js"></script>
-      
+  
+<!-- Additional Scripts for Animation -->      
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://unpkg.com/tippy.js@6"></script>
 <script src="js/scripts.js"></script>
@@ -174,6 +179,6 @@
   <script>
     AOS.init();
   </script>
+  
 </body>
-
 </html>
