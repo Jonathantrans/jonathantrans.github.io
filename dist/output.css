@@ -552,6 +552,10 @@ video {
 	  padding: 1px;
 }
 
+.row {
+	display: flex;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
