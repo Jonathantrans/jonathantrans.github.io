@@ -515,7 +515,6 @@ video {
 
 .container {
   width: 100%;
-  display: flex;
 }
 
 @media (min-width: 640px) {
