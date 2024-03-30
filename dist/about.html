@@ -8,9 +8,12 @@
   <title>About - Jonathan Trans</title>
   <meta content="jonathan trans software engineer uc davis computer science developer intern senior data structures coding github portfolio linkedin" name="keywords" />
   <meta property="og:image" content="assets/thumbnail.png"/>
+  <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+   <!-- Stylesheets -->
   <link rel="stylesheet" href="output.css" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Alpine.js -->
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <!-- Start - Fonts -->
@@ -19,6 +22,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap" rel="stylesheet">
   <!-- End - Fonts -->
+  <!-- Start - Fancybox Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <!-- End - Fancybox Scripts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      content: ["./dist/*.{html,js}"],
+      theme: {
+        extend:
+                {
+                  fontFamily: {
+                    'nothingyoucoulddo': ['Nothing You Could Do', 'cursive'],
+                    'signika': ['Signika', 'sans-serif'],
+                  },
+                },
+      },
+      plugins: [],
+    }
+  </script>
 </head>
 
 <body
@@ -81,6 +106,7 @@
       </div>
     </nav>
   </header>
+  
   <!-- Content -->
   <div class="container mx-auto">
     <h1 class="text-4xl pt-10 pb-8"><b>ABOUT ME</b></h1>
