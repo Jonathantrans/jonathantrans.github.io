@@ -548,7 +548,7 @@ video {
 }
 
 .column {
-	  flex: 10%;
+	  flex: 90%;
 	  padding: 1px;
 }
 
