@@ -549,7 +549,7 @@ video {
 
 .column {
 	  flex: 30%;
-	  padding: 5px;
+	  padding: 1px;
 }
 
 .sr-only {
