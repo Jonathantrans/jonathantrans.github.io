@@ -9,8 +9,8 @@
   <meta name="description"
     content="Hello there, I'm Jonathan Trans – an intrepid explorer through the lens, on a relentless quest to capture the world's boundless wonders. Join me in unraveling the extraordinary through my lens as I embark on a visual journey like no other.">
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="dist/assets/favicon.ico" />
-  <link rel="stylesheet" href="dist/output.css" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="output.css" />
   <link rel="stylesheet" href="styles.css" />
   <!-- Alpine.js -->
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -51,7 +51,7 @@
     <nav id="nav" x-data="{ open: false }" role="navigation" class="w-full">
       <div class="container mx-auto flex flex-wrap items-center md:flex-no-wrap">
         <div class="mr-4 md:mr-8">
-          <a class="zoom" href="index.html"><img src="dist/assets/logo.png" width="50" alt="" loading="lazy"></a>
+          <a class="zoom" href="index.html"><img src="assets/logo.png" width="50" alt="" loading="lazy"></a>
         </div>
         <div class="ml-auto md:hidden flex items-center justify-start">
           <button onclick="menuToggle()" @click="open = !open"
@@ -76,7 +76,7 @@
           <ul id="ulMenu"
             class="flex flex-col duration-300 ease-out md:space-x-5 sm:transition-none mt-5 md:flex-row md:items-center md:ml-auto md:mt-0 md:pt-0 md:border-0">
             <li class="group transition duration-300">
-              <a href="dist/home.html" class="font-signika text-2xl tap-highlight-transparent">HOME
+              <a href="./home.html" class="font-signika text-2xl tap-highlight-transparent">HOME
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white"></span>
               </a>
@@ -87,19 +87,19 @@
               </a>
             </li>
             <li class="group transition duration-300">
-              <a href="dist/home.html" class="font-signika text-2xl tap-highlight-transparent">PROJECTS
+              <a href="home.html" class="font-signika text-2xl tap-highlight-transparent">PROJECTS
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white"></span>
               </a>
             </li>
             <li class="group transition duration-300">
-              <a href="dist/about_me.htmls" class="font-signika text-2xl tap-highlight-transparent">ABOUT
+              <a href="about_me.htmls" class="font-signika text-2xl tap-highlight-transparent">ABOUT
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white"></span>
               </a>
             </li>
             <li class="group transition duration-300">
-              <a href="dist/contact.htmls" class="font-signika text-2xl tap-highlight-transparent">CONTACT
+              <a href="contact.htmls" class="font-signika text-2xl tap-highlight-transparent">CONTACT
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white"></span>
               </a>
@@ -781,8 +781,8 @@
   <script>
     Fancybox.bind("[data-fancybox]", {});
   </script>
-  <script src="dist/fade_in.js"></script>
-  <script src="dist/menu.js"></script>
+  <script src="fade_in.js"></script>
+  <script src="menu.js"></script>
 </body>
 
 </html>
