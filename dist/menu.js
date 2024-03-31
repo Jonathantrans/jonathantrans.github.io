@@ -17,3 +17,5 @@ function menuResize() {
     menu.classList.remove("h-32");
   }
 }
+
+tippy('button')
