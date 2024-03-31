@@ -18,4 +18,4 @@ function menuResize() {
   }
 }
 
-tippy('button')
+tippy('img')
