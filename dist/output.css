@@ -1357,7 +1357,7 @@ video {
 }
 
 .gradient {
-    background: linear-gradient(to right, salmon, turquoise);
+    background: linear-gradient(to right, salmon, #38ef7d);
     color: transparent;
     background-clip: text;
     display: inline-block;
