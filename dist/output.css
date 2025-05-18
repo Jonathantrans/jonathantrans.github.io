@@ -1208,8 +1208,13 @@ video {
 }
 
 .hover-text { 
-            color: #4c7f6c;
-        } 
+        color: black; /* Default text color */ 
+        transition: color 0.3s; /* Smooth transition */ 
+} 
+ 
+.hover-text:hover { 
+        color: #4c7f6c; /* Color on mouseover */ 
+} 
 
 @media (min-width: 640px) {
   .sm\:col-span-2 {
