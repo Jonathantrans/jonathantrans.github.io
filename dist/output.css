@@ -1207,15 +1207,6 @@ video {
   max-width: 100%;
 }
 
-.hover-text { 
-        color: black; /* Default text color */ 
-        transition: color 0.3s; /* Smooth transition */ 
-} 
- 
-.hover-text:hover { 
-        color: #4c7f6c; /* Color on mouseover */ 
-} 
-
 @media (min-width: 640px) {
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
