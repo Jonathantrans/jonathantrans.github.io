@@ -1207,6 +1207,10 @@ video {
   max-width: 100%;
 }
 
+.hover-text { 
+            color: #4c7f6c;
+        } 
+
 @media (min-width: 640px) {
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
