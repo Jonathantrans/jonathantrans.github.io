@@ -330,14 +330,6 @@ legend {
   padding: 0;
 }
 
-h3 {
-    background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-    background-size: cover;
-    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgba(245,67,119,1) 26%, rgba(252,28,28,1) 50%, rgba(255,195,13,1) 75%, rgba(114,251,89,1) 100%);
-}
-
 ol,
 ul,
 menu {
