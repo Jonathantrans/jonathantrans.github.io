@@ -4,11 +4,11 @@
 <head>
 	<style>
 	 .HideLogo {
-	     display: none;
+	     display: block;
 	 }
 	@media screen and (max-width: 768px) {
 	 .HideLogo {
-	     display:block;
+	     display:none;
 	 }
 	}
 </style>
@@ -62,7 +62,7 @@
         <div class="mr-4 md:mr-8">
 <!-- 	Logo Code / Future Reference	 -->
 <!--           <a class="zoom" href="index.html"><img src="dist/assets/logo.png" width="50" alt="" loading="lazy"></a> -->
-	  <a href="https://www.jonathantrans.com" class="text-2xl font-light transition duration-200 hover:opacity-60 HideLogo"><b>Jonathan Trans</b></a>
+	  <a href="https://www.jonathantrans.com" class="HideLogo text-2xl font-light transition duration-200 hover:opacity-60"><b>Jonathan Trans</b></a>
         </div>
         <div class="ml-auto md:hidden flex items-center justify-start">
           <button onclick="menuToggle()" @click="open = !open"
