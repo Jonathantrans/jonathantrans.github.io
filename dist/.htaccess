@@ -3,7 +3,4 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
-
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} !^/$
-RewriteRule (?!^dist/)^(.*)$ /dist/$1 [L,NC]
+RewriteRule ^list/(.*)$ /$1 [L,NC]
