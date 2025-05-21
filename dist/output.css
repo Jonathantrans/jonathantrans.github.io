@@ -1358,8 +1358,8 @@ video {
 
 .gradient {
 /*     background: linear-gradient(to right, #558937, #376E59); */
-	background: linear-gradient(to right, #159957, #155799);
-/* 	background: linear-gradient(to right, #34e89e, #0f3443); */
+/* 	background: linear-gradient(to right, #159957, #155799); */
+	background: linear-gradient(to right, #34e89e, #0f3443);
 /* 	background: linear-gradient(to right, #00467F, #A5CC82); */
 /* 	background: linear-gradient(to right, #134E5E, #71B280); */
 /* 	background: linear-gradient(to right, #649173, #DBD5A4); */
