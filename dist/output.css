@@ -1357,7 +1357,7 @@ video {
 }
 
 .gradient {
-    background: linear-gradient(to right, #4c7f6c, #38ef7d);
+    background: linear-gradient(to right, #007FFF, #376E59);
     color: transparent;
     background-clip: text;
     display: inline-block;
