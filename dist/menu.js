@@ -3,7 +3,7 @@ const menu = document.getElementById("menu");
 const ulMenu = document.getElementById("ulMenu");
 
 function menuToggle() {
-  menu.classList.toggle("h-32");
+  menu.classList.toggle("h-full");
 }
 
 // Browser resize listener
