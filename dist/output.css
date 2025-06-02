@@ -1364,7 +1364,7 @@ video {
 }
 
 .tabs {
-    background: linear-gradient(to right, #71B280, #134E5E);
+    background: linear-gradient(to right, #e8c28e, #134E5E);
     color: transparent;
     background-clip: text;
     display: inline-block;
