@@ -1006,14 +1006,14 @@ video {
   line-height: 2.5rem;
 }
 
-.text-5xl {
-  font-size: 1.1rem;
-  line-height: 1.6rem;
-}
-
 .text-6xl {
   font-size: 2.8rem;
   line-height: 2.7rem;
+}
+
+.text-mobile {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
 }
 
 .text-base {
