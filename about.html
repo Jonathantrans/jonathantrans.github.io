@@ -102,17 +102,28 @@
     </nav>
   </header>
 	
-  <!-- Content -->
+    <!-- Content -->
    <div class="container mx-auto">
 	  <br><br><br>
-    <!-- Mobile View -->
-    <div class="block md:hidden">
-       <p class="text-2xl font-light"><b>Hi, I'm Jon</b> — a software engineer based in San Francisco, California.<br>I build and develop accessible user interfaces and software, with a focus on machine learning and artificial 
-	  intelligence. A computer science graduate and Master's finance student interested in AI, quant, and leveraging technology. Outside of work, I am a passionate photographer and traveler.</p>
-	</div>
-    <!-- Desktop View -->
-    <p class="hidden md:block text-2xl font-light"><b>Hi, I'm Jon</b> — a software engineer based in San Francisco, California. I build and develop accessible user interfaces and software, with a focus on machine learning and artificial 
-	  intelligence. A computer science graduate and Master's finance student interested in AI, quant, and leveraging technology. Outside of work, I am a passionate photographer and traveler.</p>
+    <div class="flex flex-col md:flex-row md:items-center gap-10 md:gap-16">
+      <!-- Photo -->
+      <div class="w-full md:w-2/5 flex-shrink-0">
+        <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=1200&auto=format&fit=crop"
+          alt="Jon portrait"
+          class="w-full h-auto object-cover" />
+      </div>
+      <!-- Bio Text -->
+      <div class="w-full md:w-3/5 space-y-6">
+        <!-- Mobile View -->
+        <div class="block md:hidden">
+          <p class="text-2xl font-light"><b>Hi, I'm Jon</b> — a software engineer based in San Francisco, California.<br>I build and develop accessible user interfaces and software, with a focus on machine learning and artificial
+          intelligence. A computer science graduate and Master's finance student interested in AI, quant, and leveraging technology. Outside of work, I am a passionate photographer and traveler.</p>
+        </div>
+        <!-- Desktop View -->
+        <p class="hidden md:block text-2xl font-light"><b>Hi, I'm Jon</b> — a software engineer based in San Francisco, California. I build and develop accessible user interfaces and software, with a focus on machine learning and artificial
+          intelligence. A computer science graduate and Master's finance student interested in AI, quant, and leveraging technology. Outside of work, I am a passionate photographer and traveler.</p>
+      </div>
+    </div>
 	
   <!-- Footer -->
   <footer>
