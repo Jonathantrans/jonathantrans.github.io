@@ -1007,8 +1007,8 @@ video {
 }
 
 .text-5xl {
-  font-size: 3.1rem;
-  line-height: 1.3rem;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
 }
 
 .text-6xl {
@@ -1017,8 +1017,8 @@ video {
 }
 
 .text-base {
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-sm {
